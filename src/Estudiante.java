@@ -1,6 +1,7 @@
-public class Estudiante extends Person {
-    private String matricula;
-    private String carrera;
+public class Estudiante extends Persons {
+
+    protected String matricula;
+    protected String carrera;
 
     public Estudiante(String nombre, int edad, String matricula, String carrera) {
         super(nombre, edad);
