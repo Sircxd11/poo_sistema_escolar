@@ -1,16 +1,16 @@
 public class Profesor extends Person {
-    private String especialidad;
-    private String grupoAsignado;
+    private String areaDocente;
+    private String grupo;
 
-    public Profesor(String nombre, int edad, String especialidad, String grupoAsignado) {
+    public Profesor(String nombre, int edad, String areaDocente, String grupo) {
         super(nombre, edad);
-        this.especialidad = especialidad;
-        this.grupoAsignado = grupoAsignado;
+        this.areaDocente = areaDocente;
+        this.grupo = grupo;
     }
 
     @Override
     public void yourself() {
         super.yourself();
-        System.out.println("Soy profesor de " + especialidad + " y estoy asignado al grupo " + grupoAsignado + ".");
+        System.out.println("Imparto clases en el área de " + areaDocente + " y tengo a mi cargo el grupo " + grupo + ".");
     }
 }

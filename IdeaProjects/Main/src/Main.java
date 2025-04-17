@@ -1,10 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        Estudiante estudiante = new Estudiante("Garces Pagovich Marcus Kaleb", 20, "2470229", "ISI");
-        Profesor profesor = new Profesor("Ricardo Roman Cuevas", 30, "Programación Orientada a Objetos", "I2");
+        Estudiante alumno = new Estudiante("Marcus Kaleb Garces Pagovich", 20, "2470229", "Ingeniería en Sistemas Inteligentes");
+        Profesor docente = new Profesor("Cuevas Ricardo Román", 30, "POO (Programación Orientada a Objetos)", "Grupo I2");
 
-        estudiante.yourself();
-        System.out.println();
-        profesor.yourself();
+        System.out.println("Información del estudiante:");
+        alumno.yourself();
+
+        System.out.println("\nInformación del profesor:");
+        docente.yourself();
     }
 }
