@@ -1,6 +1,7 @@
+
 public class Person {
-    protected String nombre;
-    protected int edad;
+    public String nombre;
+    public int edad;
 
     public Person(String nombre, int edad) {
         this.nombre = nombre;
@@ -8,6 +9,6 @@ public class Person {
     }
 
     public void yourself() {
-        System.out.println("Hola, soy " + nombre + " y tengo " + edad + " años.");
+        System.out.println("Hola, mi nombre es " + nombre + " y tengo " + edad + " años.\n ");
     }
 }
